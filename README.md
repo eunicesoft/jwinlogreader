@@ -50,16 +50,3 @@ WinlogReader winlogReader = WinlogReader.builder()
 
 
 ```
-
-
-```mermaid
-
-graph TD
-    User((User)) -- EXECUTED --> P1(Process: powershell.exe)
-    P1 -- SPAWNED --> P2(Process: malware.exe)
-    P2 -- LOADED --> D1(File: wininet.dll)
-    P2 -- CREATED --> F1(File: ransom_note.txt)
-    P2 -- RESOLVED --> Dom1(Domain: attacker.com)
-    P2 -- CONNECTED_TO --> IP1(IP: 1.2.3.4)
-
-```
