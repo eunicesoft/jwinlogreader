@@ -50,3 +50,6 @@ WinlogReader winlogReader = WinlogReader.builder()
 
 
 ```
+
+## DOCS
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://eunicesoft.github.io/jwinlogreader/)
