@@ -1,3 +1,5 @@
 com.eunice.lib.reader
-com.eunice.lib.reader._native
+com.eunice.lib.reader.constant
+com.eunice.lib.reader.impl
 com.eunice.lib.reader.module
+com.eunice.lib.reader.winnative
